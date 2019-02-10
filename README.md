@@ -1,5 +1,8 @@
 #Portfolio
+<a href="https://github.com/kenmutuma001/My-Portfolio">github</a>
 
+#### Author
+By Kennedy mutuma
 ##Description
 The following webpage gives a link to all my current projects in github and a brief description about me
 
