@@ -1,10 +1,12 @@
-#Portfolio
-<a href="https://github.com/kenmutuma001/My-Portfolio">github</a>
+# {Portfolio}
 
 #### Author
-By Kennedy mutuma
+{By Kennedy mutuma}
+
 ##Description
 The following webpage gives a link to all my current projects in github and a brief description about me
+<a href="https://github.com/kenmutuma001/My-Portfolio">github</a>
+
 
 ##Known Bugs
 There are no known bugs.If any is found you can make contact.
