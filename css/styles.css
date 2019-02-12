@@ -48,3 +48,6 @@ h1 {
 .home {
   font-size: 30px;
 }
+.floatclass {
+  float: right;
+}
