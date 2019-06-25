@@ -15,7 +15,7 @@ h1 {
   font-size: 22px;
 }
 .bkgrnd {
-  background-image: url(https://images.pexels.com/photos/40896/larch-conifer-cone-branch-tree-40896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image:
   color: black;
   margin-left: -10px;
   background-size: cover;
@@ -52,4 +52,44 @@ h1 {
 .floatclass {
   float: center;
   font-size: 20px;
+}
+#but {
+  width: 100px;
+  height: 50px;
+}
+.gradient {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+#page {
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+    #menu {
+        margin: auto;
+        padding: 10px;
+        height: 65px;
+        box-sizing: border-box;
+        h1 {
+            margin: 0;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 3.2rem;
+        }
+    }
+    $menuHeight: 65px+10px;
+@mixin transition {
+    transition-property: background-color opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
